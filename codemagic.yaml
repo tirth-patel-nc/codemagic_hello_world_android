@@ -33,9 +33,10 @@ workflows:
         publishing:
             slack:
                 channel: '#codemagic-hello-world-stack'
-                notify_on_build_start: true
+                notify_on_build_start: false
                 notify:
                     success: false
                     failure: false
+
 
 
