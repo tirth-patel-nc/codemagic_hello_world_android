@@ -4,6 +4,10 @@ workflows:
         max_build_duration: 120
         instance_type: mac_mini_m2
 
+        triggering:
+            events:                      
+                - push
+
         cache:
             cache_paths:
                 - ~/.gradle/caches
@@ -32,3 +36,4 @@ workflows:
                 notify:
                     success: false
                     failure: false
+
