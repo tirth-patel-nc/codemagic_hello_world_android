@@ -2,7 +2,7 @@ workflows:
     android-workflow:
         name: Android Workflow
         max_build_duration: 120
-        instance_type: windows_x2
+        instance_type: linux_x2
 
         triggering:
             events:                      
@@ -13,7 +13,6 @@ workflows:
                 - ~/.gradle/caches
 
         environment:
-            java: 20
             android_signing:
                 - codemagic
             vars:
