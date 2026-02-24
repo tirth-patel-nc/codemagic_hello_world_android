@@ -1,4 +1,4 @@
-package com.exam.codemagichelloworldandroid.ui.theme
+package com.exam.codemagichelloworldflutter.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

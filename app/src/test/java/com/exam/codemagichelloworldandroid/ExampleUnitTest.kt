@@ -1,4 +1,4 @@
-package com.exam.codemagichelloworldandroid
+package com.exam.codemagichelloworldflutter
 
 import org.junit.Test
 
