@@ -1,4 +1,4 @@
-package com.exam. codemagic_hello_world_flutter.ui.theme
+package com.exam.codemagic_hello_world_flutter.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

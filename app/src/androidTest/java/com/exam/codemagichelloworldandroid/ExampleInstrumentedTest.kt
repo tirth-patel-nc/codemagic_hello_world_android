@@ -1,4 +1,4 @@
-package com.exam. codemagic_hello_world_flutter
+package com.exam.codemagic_hello_world_flutter
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.exam. codemagic_hello_world_flutter", appContext.packageName)
+        assertEquals("com.exam.codemagic_hello_world_flutter", appContext.packageName)
     }
 }

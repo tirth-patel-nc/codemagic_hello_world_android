@@ -1,4 +1,4 @@
-package com.exam. codemagic_hello_world_flutter
+package com.exam.codemagic_hello_world_flutter
 
 import org.junit.Test
 
