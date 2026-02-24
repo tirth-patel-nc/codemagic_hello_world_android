@@ -18,7 +18,7 @@ workflows:
             android_signing:
                 - codemagic
             vars:
-                PACKAGE_NAME: "com.exam.codemagichelloworldflutter"
+                PACKAGE_NAME: "com.exam. codemagic_hello_world_flutter"
 
         scripts:
             - name: Set Android SDK location

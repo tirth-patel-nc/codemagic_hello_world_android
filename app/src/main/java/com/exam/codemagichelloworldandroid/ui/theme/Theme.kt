@@ -1,4 +1,4 @@
-package com.exam.codemagichelloworldflutter.ui.theme
+package com.exam. codemagic_hello_world_flutter.ui.theme
 
 import android.app.Activity
 import android.os.Build
