@@ -13,13 +13,13 @@ plugins {
 }
 
 android {
-    namespace = "com.exam.codemagic_hello_world_flutter"
+    namespace = "com.exam.codemagic_hello_world_android"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.exam.codemagic_hello_world_flutter"
+        applicationId = "com.exam.codemagic_hello_world_android"
         minSdk = 36
         targetSdk = 36
         versionCode = 1
