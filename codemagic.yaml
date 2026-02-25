@@ -32,6 +32,9 @@ workflows:
             - app/build/outputs/**/*.aab
 
         publishing:
+            google_play:
+                credentials: $GOOGLE_PLAY_SERVICE_ACCOUNT_CREDENTIALS
+                track: internal
             slack:
                 channel: '#codemagic-hello-world-stack'
                 notify_on_build_start: false
