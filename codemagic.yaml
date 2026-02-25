@@ -14,7 +14,7 @@ workflows:
 
         environment:
             groups:
-                - google_credentials
+                - google_credentials_f
             android_signing:
                 - codemagic
             vars:
