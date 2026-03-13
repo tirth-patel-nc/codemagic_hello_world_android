@@ -11,6 +11,7 @@ workflows:
         cache:
             cache_paths:
                 - ~/.gradle/caches
+                - ~/.gradle/caches
 
         environment:
             groups:
@@ -32,16 +33,13 @@ workflows:
             - app/build/outputs/**/*.aab
 
         publishing:
-            google_play:
-                credentials: $GOOGLE_PLAY_SERVICE_ACCOUNT_CREDENTIALS
-                track: internal
-                submit_as_draft: true
             slack:
                 channel: '#codemagic-hello-world-stack'
                 notify_on_build_start: false
                 notify:
                     success: false
                     failure: false
+
 
 
 
